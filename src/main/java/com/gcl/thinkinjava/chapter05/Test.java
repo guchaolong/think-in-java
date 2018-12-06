@@ -18,11 +18,16 @@ package com.gcl.thinkinjava.chapter05;
  */
 public class Test {
     public static void main(String [] args){
+
+        XiaoMin xiaoMin = new XiaoMin();
+        xiaoMin.name = "dfs";
 //        Apple apple = new Apple("dsf");
-        new Book(true);
-        new Book(true);
-        new Book(true);
-        new Book(true).checkin();
-        System.gc();
+
+
+//        new Book(true);
+//        new Book(true);
+//        new Book(true);
+//        new Book(true).checkin();
+//        System.gc();
     }
 }
